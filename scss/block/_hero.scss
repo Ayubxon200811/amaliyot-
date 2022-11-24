@@ -1,0 +1,51 @@
+.herocontainer{
+    max-width: 1195px;    
+    height: auto;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.hero__item{
+    background: #FFFFFF;
+box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+border-radius: 5px;
+width: 264px;
+height: 336px;
+}
+.item__title{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+color: #111517;
+margin-top: 24px;
+margin-bottom: 16px;
+margin-left: 24px;
+}
+.item__text{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #111517;
+margin-bottom: 8px;
+margin-left: 24px;
+}
+.hero__item:hover {
+    box-shadow: 0px 2px 4px rgba(15, 10, 15, 0.78);
+}
+.hero__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    margin-bottom: 64px;
+}
